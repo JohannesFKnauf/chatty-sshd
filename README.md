@@ -1,6 +1,8 @@
 # Chatty SSHd logs passwords
 
-This code contains a little dummy SSH server built using [Apache Mina SSHD](https://mina.apache.org/sshd-project/). It logs all entered passwords.
+This code contains a little dummy [SSH](https://en.wikipedia.org/wiki/Secure_Shell_Protocol)/SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) server built using [Apache Mina SSHD](https://mina.apache.org/sshd-project/). It logs all entered passwords.
+
+It belongs to my [blog article about creating a password-logging SFTP for the purpose of recovering passwords](https://metamorphant.de/blog/posts/2021-04-13-ssh-server-apache-mina-recover-sftp-passwords-automic-uc4/).
 
 ## How to build and run Chatty SSHd
 
